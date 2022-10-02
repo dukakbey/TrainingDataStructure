@@ -5,15 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(Windows) Launch",
-            "type": "cppvsdbg",
+            "name": "Debug",
+            "type":"cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Debug/queque.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "console": "externalTerminal"
+            "program": "${workspaceFolder}/build/Debug/data_structures",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true
         }
     ]
 }

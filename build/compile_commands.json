@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/sc/applications/release/TrainingDataStructure/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/data_structures.dir/main.cpp.o -c /home/sc/applications/release/TrainingDataStructure/main.cpp",
+  "file": "/home/sc/applications/release/TrainingDataStructure/main.cpp"
+}
+]
