@@ -378,6 +378,19 @@ ExperimentalUpdate/fast:
 .PHONY : ExperimentalUpdate/fast
 
 #=============================================================================
+# Target rules for targets named queue
+
+# Build rule for target.
+queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
+.PHONY : queue/fast
+
+#=============================================================================
 # Target rules for targets named ExperimentalConfigure
 
 # Build rule for target.
@@ -520,32 +533,59 @@ ContinuousUpdate/fast:
 	$(MAKE) -f CMakeFiles/ContinuousUpdate.dir/build.make CMakeFiles/ContinuousUpdate.dir/build
 .PHONY : ContinuousUpdate/fast
 
-home/sc/applications/release/TrainingDataStructure/src/hello.o: home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o
+home/sc/applications/release/TrainingDataStructure/src/Queue.o: home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o
 
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/hello.o
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.o
 
 # target to build an object file
-home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o:
-	$(MAKE) -f CMakeFiles/data_structures.dir/build.make CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o
+home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o
 
-home/sc/applications/release/TrainingDataStructure/src/hello.i: home/sc/applications/release/TrainingDataStructure/src/hello.cpp.i
+home/sc/applications/release/TrainingDataStructure/src/Queue.i: home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i
 
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/hello.i
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.i
 
 # target to preprocess a source file
-home/sc/applications/release/TrainingDataStructure/src/hello.cpp.i:
-	$(MAKE) -f CMakeFiles/data_structures.dir/build.make CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.i
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/hello.cpp.i
+home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i
 
-home/sc/applications/release/TrainingDataStructure/src/hello.s: home/sc/applications/release/TrainingDataStructure/src/hello.cpp.s
+home/sc/applications/release/TrainingDataStructure/src/Queue.s: home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s
 
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/hello.s
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.s
 
 # target to generate assembly for a file
-home/sc/applications/release/TrainingDataStructure/src/hello.cpp.s:
-	$(MAKE) -f CMakeFiles/data_structures.dir/build.make CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.s
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/hello.cpp.s
+home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s
+
+home/sc/applications/release/TrainingDataStructure/src/main.o: home/sc/applications/release/TrainingDataStructure/src/main.cpp.o
+
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/main.o
+
+# target to build an object file
+home/sc/applications/release/TrainingDataStructure/src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structures.dir/build.make CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/main.cpp.o
+
+home/sc/applications/release/TrainingDataStructure/src/main.i: home/sc/applications/release/TrainingDataStructure/src/main.cpp.i
+
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/main.i
+
+# target to preprocess a source file
+home/sc/applications/release/TrainingDataStructure/src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structures.dir/build.make CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.i
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/main.cpp.i
+
+home/sc/applications/release/TrainingDataStructure/src/main.s: home/sc/applications/release/TrainingDataStructure/src/main.cpp.s
+
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/main.s
+
+# target to generate assembly for a file
+home/sc/applications/release/TrainingDataStructure/src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structures.dir/build.make CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.s
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/main.cpp.s
 
 # Help Target
 help:
@@ -576,6 +616,7 @@ help:
 	@echo "... NightlyCoverage"
 	@echo "... ExperimentalUpdate"
 	@echo "... test"
+	@echo "... queue"
 	@echo "... ExperimentalConfigure"
 	@echo "... ExperimentalCoverage"
 	@echo "... ExperimentalBuild"
@@ -587,9 +628,12 @@ help:
 	@echo "... ExperimentalSubmit"
 	@echo "... ContinuousStart"
 	@echo "... ContinuousUpdate"
-	@echo "... home/sc/applications/release/TrainingDataStructure/src/hello.o"
-	@echo "... home/sc/applications/release/TrainingDataStructure/src/hello.i"
-	@echo "... home/sc/applications/release/TrainingDataStructure/src/hello.s"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/Queue.o"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/Queue.i"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/Queue.s"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/main.o"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/main.i"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/main.s"
 .PHONY : help
 
 

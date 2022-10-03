@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/data_structures.dir/main.cpp.o  -o data_structures 

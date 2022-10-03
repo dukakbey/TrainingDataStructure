@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sc/applications/release/TrainingDataStructure/src/Queue.h
-iostream
--
-
-/home/sc/applications/release/TrainingDataStructure/src/main.cpp
-iostream
--
-string
--
+/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp
 Queue.h
 /home/sc/applications/release/TrainingDataStructure/src/Queue.h
+
+/home/sc/applications/release/TrainingDataStructure/src/Queue.h
+iostream
+-
 

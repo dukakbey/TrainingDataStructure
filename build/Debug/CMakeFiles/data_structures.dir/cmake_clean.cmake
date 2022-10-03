@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o"
+  "CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o"
   "data_structures.pdb"
   "data_structures"
 )

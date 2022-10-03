@@ -57,28 +57,29 @@ include CMakeFiles/data_structures.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/data_structures.dir/flags.make
 
-CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o: CMakeFiles/data_structures.dir/flags.make
-CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/hello.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o -c /home/sc/applications/release/TrainingDataStructure/src/hello.cpp
+CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o: CMakeFiles/data_structures.dir/flags.make
+CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o -c /home/sc/applications/release/TrainingDataStructure/src/main.cpp
 
-CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc/applications/release/TrainingDataStructure/src/hello.cpp > CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.i
+CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc/applications/release/TrainingDataStructure/src/main.cpp > CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.i
 
-CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc/applications/release/TrainingDataStructure/src/hello.cpp -o CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.s
+CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc/applications/release/TrainingDataStructure/src/main.cpp -o CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.s
 
 # Object files for target data_structures
 data_structures_OBJECTS = \
-"CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o"
+"CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o"
 
 # External object files for target data_structures
 data_structures_EXTERNAL_OBJECTS =
 
-data_structures: CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/hello.cpp.o
+data_structures: CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o
 data_structures: CMakeFiles/data_structures.dir/build.make
+data_structures: libqueue.a
 data_structures: CMakeFiles/data_structures.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable data_structures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structures.dir/link.txt --verbose=$(VERBOSE)

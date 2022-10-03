@@ -5,11 +5,13 @@
             "type": "shell",
             "label": "CMake: build",
             "command": "${workspaceFolder}/build/build_debug.sh",
-            "options": {"cwd": "${workspaceFolder}/build/Debug"},
+            "options": {
+                "cwd": "${workspaceFolder}/build/Debug"
+            },
             "group": "build",
-            "problemMatcher": [],
+            "problemMatcher": ["$gcc"],
             "detail": "CMake template build task"
         }
-       
+        
     ]
 }

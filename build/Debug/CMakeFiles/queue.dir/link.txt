@@ -1,0 +1,2 @@
+/usr/bin/ar qc libqueue.a  CMakeFiles/queue.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o
+/usr/bin/ranlib libqueue.a
