@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles/queue.dir/DependInfo.cmake"
+  "/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles/data_structures_headers.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/sc/applications/release/TrainingDataStructure/src/LinkedList.h
+iostream
+-
+
 /home/sc/applications/release/TrainingDataStructure/src/Queue.h
 iostream
 -
@@ -17,4 +21,6 @@ string
 -
 Queue.h
 /home/sc/applications/release/TrainingDataStructure/src/Queue.h
+LinkedList.h
+/home/sc/applications/release/TrainingDataStructure/src/LinkedList.h
 

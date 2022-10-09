@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdata_structures_headers.a  CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o
+/usr/bin/ranlib libdata_structures_headers.a

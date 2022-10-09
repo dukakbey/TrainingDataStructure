@@ -79,7 +79,7 @@ data_structures_EXTERNAL_OBJECTS =
 
 data_structures: CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o
 data_structures: CMakeFiles/data_structures.dir/build.make
-data_structures: libqueue.a
+data_structures: libdata_structures_headers.a
 data_structures: CMakeFiles/data_structures.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable data_structures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structures.dir/link.txt --verbose=$(VERBOSE)

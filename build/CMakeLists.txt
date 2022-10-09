@@ -6,14 +6,16 @@ enable_testing()
 include_directories(${../header},${../src})
 
 add_library(
-    queue
+    data_structures_headers
     ../src/Queue.cpp
     ../src/Queue.h
+    ../src/LinkedList.cpp
+    ../src/LinkedList.h
 )
 
 add_executable(data_structures ../src/main.cpp) 
 
-target_link_libraries(data_structures PRIVATE queue)
+target_link_libraries(data_structures PRIVATE data_structures_headers)
   
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
