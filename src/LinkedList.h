@@ -16,8 +16,8 @@ public:
     LinkedList() { first = NULL; };
     LinkedList(int A[], int n);
     ~LinkedList();
-    void Add();
+    void Add(int a, int index);
     void Display();
-    int Delete();
+    int Delete(int index);
     int Length();
 };
