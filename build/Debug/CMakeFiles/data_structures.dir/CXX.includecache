@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/sc/applications/release/TrainingDataStructure/src/HashTable.h
+iostream
+-
+Node.h
+/home/sc/applications/release/TrainingDataStructure/src/Node.h
+
 /home/sc/applications/release/TrainingDataStructure/src/LinkedList.h
+iostream
+-
+Node.h
+/home/sc/applications/release/TrainingDataStructure/src/Node.h
+
+/home/sc/applications/release/TrainingDataStructure/src/Node.h
 iostream
 -
 
@@ -23,4 +35,6 @@ Queue.h
 /home/sc/applications/release/TrainingDataStructure/src/Queue.h
 LinkedList.h
 /home/sc/applications/release/TrainingDataStructure/src/LinkedList.h
+HashTable.h
+/home/sc/applications/release/TrainingDataStructure/src/HashTable.h
 

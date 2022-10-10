@@ -14,14 +14,13 @@ Queue::~Queue()
 
 void Queue::Add(int a)
 {
-
     rear++;
     Q[rear] = a;
 }
 void Queue::Show()
 {
     for (int i = front + 1; i <= rear; i++)
-        std::cout << Q[i]<<std::endl;
+        std::cout << Q[i] << std::endl;
 }
 void Queue::Delete()
 {

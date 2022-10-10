@@ -1,12 +1,7 @@
+#pragma once
 #include <iostream>
-
+#include "Node.h"
 using namespace std;
-class Node
-{
-public:
-    int data;
-    Node *Next;
-};
 class LinkedList
 {
 private:

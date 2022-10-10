@@ -6,11 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/home/sc/applications/release/TrainingDataStructure/src/HashTable.cpp
+HashTable.h
+/home/sc/applications/release/TrainingDataStructure/src/HashTable.h
+
+/home/sc/applications/release/TrainingDataStructure/src/HashTable.h
+iostream
+-
+Node.h
+/home/sc/applications/release/TrainingDataStructure/src/Node.h
+
 /home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp
 LinkedList.h
 /home/sc/applications/release/TrainingDataStructure/src/LinkedList.h
 
 /home/sc/applications/release/TrainingDataStructure/src/LinkedList.h
+iostream
+-
+Node.h
+/home/sc/applications/release/TrainingDataStructure/src/Node.h
+
+/home/sc/applications/release/TrainingDataStructure/src/Node.h
 iostream
 -
 

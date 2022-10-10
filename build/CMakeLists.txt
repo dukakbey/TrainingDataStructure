@@ -11,6 +11,9 @@ add_library(
     ../src/Queue.h
     ../src/LinkedList.cpp
     ../src/LinkedList.h
+    ../src/Node.h
+    ../src/HashTable.h
+    ../src/HashTable.cpp
 )
 
 add_executable(data_structures ../src/main.cpp) 
