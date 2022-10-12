@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/build/Debug/data_structures",
             "cwd": "${workspaceFolder}",
-            "externalConsole": true
+            "externalConsole": false
         }
     ]
 }

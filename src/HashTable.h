@@ -13,5 +13,6 @@ public:
     int hash(int key);
     void Insert(int key);
     int Search(int key);
+    void H_Display(int key);
     ~HashTable();
 };
