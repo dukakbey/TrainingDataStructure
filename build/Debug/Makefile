@@ -587,33 +587,6 @@ home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/data_structures_headers.dir/build.make CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.s
 .PHONY : home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.s
 
-home/sc/applications/release/TrainingDataStructure/src/Queue.o: home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o
-
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.o
-
-# target to build an object file
-home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o:
-	$(MAKE) -f CMakeFiles/data_structures_headers.dir/build.make CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o
-
-home/sc/applications/release/TrainingDataStructure/src/Queue.i: home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i
-
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.i
-
-# target to preprocess a source file
-home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i:
-	$(MAKE) -f CMakeFiles/data_structures_headers.dir/build.make CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i
-
-home/sc/applications/release/TrainingDataStructure/src/Queue.s: home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s
-
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.s
-
-# target to generate assembly for a file
-home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s:
-	$(MAKE) -f CMakeFiles/data_structures_headers.dir/build.make CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s
-.PHONY : home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s
-
 home/sc/applications/release/TrainingDataStructure/src/main.o: home/sc/applications/release/TrainingDataStructure/src/main.cpp.o
 
 .PHONY : home/sc/applications/release/TrainingDataStructure/src/main.o
@@ -640,6 +613,33 @@ home/sc/applications/release/TrainingDataStructure/src/main.s: home/sc/applicati
 home/sc/applications/release/TrainingDataStructure/src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/data_structures.dir/build.make CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.s
 .PHONY : home/sc/applications/release/TrainingDataStructure/src/main.cpp.s
+
+home/sc/applications/release/TrainingDataStructure/src/myQueue.o: home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o
+
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/myQueue.o
+
+# target to build an object file
+home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structures_headers.dir/build.make CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o
+
+home/sc/applications/release/TrainingDataStructure/src/myQueue.i: home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.i
+
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/myQueue.i
+
+# target to preprocess a source file
+home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structures_headers.dir/build.make CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.i
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.i
+
+home/sc/applications/release/TrainingDataStructure/src/myQueue.s: home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.s
+
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/myQueue.s
+
+# target to generate assembly for a file
+home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structures_headers.dir/build.make CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.s
+.PHONY : home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.s
 
 # Help Target
 help:
@@ -688,12 +688,12 @@ help:
 	@echo "... home/sc/applications/release/TrainingDataStructure/src/LinkedList.o"
 	@echo "... home/sc/applications/release/TrainingDataStructure/src/LinkedList.i"
 	@echo "... home/sc/applications/release/TrainingDataStructure/src/LinkedList.s"
-	@echo "... home/sc/applications/release/TrainingDataStructure/src/Queue.o"
-	@echo "... home/sc/applications/release/TrainingDataStructure/src/Queue.i"
-	@echo "... home/sc/applications/release/TrainingDataStructure/src/Queue.s"
 	@echo "... home/sc/applications/release/TrainingDataStructure/src/main.o"
 	@echo "... home/sc/applications/release/TrainingDataStructure/src/main.i"
 	@echo "... home/sc/applications/release/TrainingDataStructure/src/main.s"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/myQueue.o"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/myQueue.i"
+	@echo "... home/sc/applications/release/TrainingDataStructure/src/myQueue.s"
 .PHONY : help
 
 

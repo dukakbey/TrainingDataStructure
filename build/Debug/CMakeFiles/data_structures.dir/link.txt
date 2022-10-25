@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o  -o data_structures libdata_structures_headers.a 
+/usr/bin/c++  -std=c++0x  -g -ftest-coverage -fprofile-arcs -g  -rdynamic CMakeFiles/data_structures.dir/home/sc/applications/release/TrainingDataStructure/src/main.cpp.o  -o data_structures libdata_structures_headers.a 

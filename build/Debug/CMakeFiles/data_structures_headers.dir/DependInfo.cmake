@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/sc/applications/release/TrainingDataStructure/src/HashTable.cpp" "/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/HashTable.cpp.o"
   "/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp" "/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o"
-  "/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp" "/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o"
+  "/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp" "/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-class Queue
+class myQueue
 {
 private:
     int size;
@@ -10,8 +10,8 @@ private:
     int *Q;
 
 public:
-    Queue(int s);
-    ~Queue();
+    myQueue(int s);
+    ~myQueue();
 
     void Add(int a);
     void Delete();

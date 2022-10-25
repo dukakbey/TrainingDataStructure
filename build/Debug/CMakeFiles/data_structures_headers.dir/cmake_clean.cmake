@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o"
+  "CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o"
   "CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o"
   "CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/HashTable.cpp.o"
   "libdata_structures_headers.pdb"

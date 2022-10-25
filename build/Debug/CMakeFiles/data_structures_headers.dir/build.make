@@ -57,18 +57,18 @@ include CMakeFiles/data_structures_headers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/data_structures_headers.dir/flags.make
 
-CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o: CMakeFiles/data_structures_headers.dir/flags.make
-CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o -c /home/sc/applications/release/TrainingDataStructure/src/Queue.cpp
+CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o: CMakeFiles/data_structures_headers.dir/flags.make
+CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc/applications/release/TrainingDataStructure/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o -c /home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp
 
-CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc/applications/release/TrainingDataStructure/src/Queue.cpp > CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.i
+CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp > CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.i
 
-CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc/applications/release/TrainingDataStructure/src/Queue.cpp -o CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.s
+CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp -o CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.s
 
 CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o: CMakeFiles/data_structures_headers.dir/flags.make
 CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp
@@ -98,14 +98,14 @@ CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingData
 
 # Object files for target data_structures_headers
 data_structures_headers_OBJECTS = \
-"CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o" \
+"CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o" \
 "CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o" \
 "CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/HashTable.cpp.o"
 
 # External object files for target data_structures_headers
 data_structures_headers_EXTERNAL_OBJECTS =
 
-libdata_structures_headers.a: CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o
+libdata_structures_headers.a: CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o
 libdata_structures_headers.a: CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o
 libdata_structures_headers.a: CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/HashTable.cpp.o
 libdata_structures_headers.a: CMakeFiles/data_structures_headers.dir/build.make

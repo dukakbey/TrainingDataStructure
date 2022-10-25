@@ -30,11 +30,11 @@ Node.h
 iostream
 -
 
-/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp
-Queue.h
-/home/sc/applications/release/TrainingDataStructure/src/Queue.h
+/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp
+myQueue.h
+/home/sc/applications/release/TrainingDataStructure/src/myQueue.h
 
-/home/sc/applications/release/TrainingDataStructure/src/Queue.h
+/home/sc/applications/release/TrainingDataStructure/src/myQueue.h
 iostream
 -
 

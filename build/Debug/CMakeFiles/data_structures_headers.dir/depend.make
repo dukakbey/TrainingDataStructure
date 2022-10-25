@@ -9,6 +9,6 @@ CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingData
 CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/LinkedList.h
 CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/LinkedList.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/Node.h
 
-CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/Queue.cpp
-CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/Queue.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/Queue.h
+CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp
+CMakeFiles/data_structures_headers.dir/home/sc/applications/release/TrainingDataStructure/src/myQueue.cpp.o: /home/sc/applications/release/TrainingDataStructure/src/myQueue.h
 

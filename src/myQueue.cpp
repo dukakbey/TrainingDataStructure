@@ -1,40 +1,40 @@
-#include "Queue.h"
+#include "myQueue.h"
 
-Queue::Queue(int s)
+myQueue::myQueue(int s)
 {
     size = s;
     rear = -1;
     front = -1;
     Q = new int[s];
 }
-Queue::~Queue()
+myQueue::~myQueue()
 {
     delete[] Q;
 }
 
-void Queue::Add(int a)
+void myQueue::Add(int a)
 {
     rear++;
     Q[rear] = a;
 }
-void Queue::Show()
+void myQueue::Show()
 {
     for (int i = front + 1; i <= rear; i++)
         std::cout << Q[i] << std::endl;
 }
-void Queue::Delete()
+void myQueue::Delete()
 {
     front++;
 }
 
-bool Queue::Isempty()
+bool myQueue::Isempty()
 {
     if (front == rear)
         return true;
     return false;
 }
 
-bool Queue::Isfull()
+bool myQueue::Isfull()
 {
     if (rear == size)
         return true;

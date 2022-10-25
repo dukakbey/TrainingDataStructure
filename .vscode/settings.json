@@ -18,6 +18,12 @@
         "ostream": "cpp",
         "streambuf": "cpp",
         "type_traits": "cpp",
-        "typeinfo": "cpp"
-    }
+        "typeinfo": "cpp",
+        "tree_class": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/build",
+    "C_Cpp.errorSquiggles": "Disabled"
 }
