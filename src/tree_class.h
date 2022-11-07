@@ -24,6 +24,8 @@ public:
     void Preorder() { Preorder(root); }
     void iterative_Preorder(){iterative_Preorder(root);};
     void iterative_Preorder(Node *p);
+    void iterative_Postorder(){iterative_Postorder(root);}
+    void iterative_Postorder(Node *p);
 };
 
 void sc_tree::Preorder(Node *p)
@@ -50,9 +52,31 @@ void sc_tree::iterative_Preorder(Node *p)
         else
         {
             p = s.top();
+            s.pop();
             p = p->rchild;
         }
     }
+}
+
+void sc_tree::iterative_Postorder(Node *p)
+{
+    stack<Node *> s;
+    while (p !=nullptr || !s.empty())
+    {
+        if (p != NULL)
+        {
+            s.emplace(p);
+            cout << p->data << endl;
+            p = p->rchild;
+        }
+        else
+        {
+            p = s.top();
+            s.pop();
+            p = p->lchild;
+        }
+    }
+
 }
 
 void sc_tree::create_tree()

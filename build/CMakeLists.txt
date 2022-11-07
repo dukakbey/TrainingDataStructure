@@ -14,15 +14,6 @@ add_library(
     ../src/HashTable.cpp
     ../src/tree_class.h
 )
-set (EXCLUDE_DIR "../build/Debug")
-file (GLOB_RECURSE SOURCE_FILES "*")
-foreach (TMP_PATH ${SOURCE_FILES})
-    string (FIND ${TMP_PATH} ${EXCLUDE_DIR} EXCLUDE_DIR_FOUND)
-    if (NOT ${EXCLUDE_DIR_FOUND} EQUAL -1)
-        list (REMOVE_ITEM SOURCE_FILES ${TMP_PATH})
-    endif ()
-endforeach(TMP_PATH)
-
 
 add_executable(data_structures ../src/main.cpp) 
 target_link_libraries(data_structures PRIVATE data_structures_headers)
